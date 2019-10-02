@@ -12,7 +12,7 @@ class PlatformCheckPlugin {
 
   static void registerWith(Registrar registrar) {
     final MethodChannel channel = MethodChannel(
-      'com.buntagon/local_file_reference',
+      'com.buntagon/platform_check',
       const StandardMethodCodec(),
       registrar.messenger,
     );
